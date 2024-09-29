@@ -23,7 +23,11 @@ body {
     grid-template-columns: repeat(3, 1fr);
     gap: 10px; /* Отступ между колонками */
 }
-
+@media (max-width: 768px) {
+    .sid {
+        grid-template-columns: repeat(2, 1fr); /* 2 колонки на мобильных устройствах */
+    }
+}
 .avatar {
     display: flex;
     align-items: center;
