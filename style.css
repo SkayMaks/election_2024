@@ -49,7 +49,11 @@ body {
     height: 70px;
     margin-right: 10px;
 }
-
+.fon{
+    background-image: url(https://oboi-ma.ru/f/product/f8da40b5c84d880d51d8a3eab034fbc9.jpg);
+    background-size: cover;
+    padding: 20px;
+}
 .info {
     flex: 1;
     background-color: #fff;
