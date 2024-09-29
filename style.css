@@ -28,6 +28,7 @@ body {
         grid-template-columns: repeat(2, 1fr); /* 2 колонки на мобильных устройствах */
     }
 }
+
 .avatar {
     display: flex;
     align-items: center;
