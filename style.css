@@ -40,10 +40,10 @@ body {
 }
 
 .avatar:hover {
-    background-color: #ccccff; /* Цвет фона при наведении */
+    background-color: #f5e6c4; /* Цвет фона при наведении */
 }
 .selected {
-    background-color: #9999ff; /* Цвет фона для выбранного элемента */
+    background-color: #e8d9b9; /* Цвет фона для выбранного элемента */
 }
 .avatar img {
     height: 70px;
