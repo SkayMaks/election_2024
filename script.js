@@ -169,7 +169,7 @@ const people = [
 function showInfo(index) {
     const person = people[index];
     const infoDiv = document.getElementById('info');
-    infoDiv.innerHTML = `
+    infoDiv.innerHTML = `<div class="fon">
         <h2>${person.name} ${person.surname}</h2>
         <p><strong>Должность:</strong> ${person.position}</p>
         <p><strong>Пол:</strong> ${person.gender}</p>
@@ -179,6 +179,7 @@ function showInfo(index) {
         <p><strong>Сверхспособность:</strong> ${person.superpower}</p>
         <p><strong>Любимая фраза:</strong> "${person.favoritePhrase}"</p>
         <img src="./img/pech.png" style="padding-left:200px;"> 
+        </div>
     `;
 }
 function selectAvatar(element) {
